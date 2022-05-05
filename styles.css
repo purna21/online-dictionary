@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    height: 100vh;
+    background-color: #E5E5E5;
+    font-family: 'Inter', sans-serif;
+    position: relative;
+}
+
+.header {
+    height: 30vh;
+    width: 100%;
+    background: linear-gradient(91.92deg, #21548D 49.99%, #8AAAD0 100%);
+    color: #FFF;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header .logo-box {
+
+    position: absolute;
+    top: 30px;
+    left: 32px;
+}
+
+.header .logo-box .logo-text {
+
+    font-size: 2.4rem;
+    font-weight: 700;
+    letter-spacing: 0.1rem;
+}
+
+.header .logo-box .logo-text span {
+    color: #6badfe;
+}
+
+.search-box {
+
+    width: 60rem;
+    height: 4.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #EEF3F9;
+    border-radius: 2px;
+}
+
+
+.search-box .search-input {
+
+    height: 90%;
+    width: 100%;
+    flex: 1;
+    outline: none;
+    border: none;
+    padding: 0 20px;
+    margin-right: 10px;
+    background-color: transparent;
+    font-size: 1.5rem;
+}
+
+
+.search-box .search-logo {
+    margin-right: 15px;
+}
+
+.main {
+
+    height: 62vh;
+    /* background-color: red; */
+}
+
+.overview-container {
+
+    height: 100%;
+    width: 100%;
+    padding: 25px 20px 30px 55px;
+    /* background-color: rgb(192, 188, 188); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex: 1;
+    /* display: none; */
+
+}
+
+.overview-container .word-container {
+
+    padding: 15px;
+}
+
+.overview-container .word-container .word {
+
+    font-size: 4rem;
+    font-weight: 700;
+    color: #21548D;
+}
+
+.overview-container .word-container .phonetic {
+
+    font-size: 2rem;
+    font-weight: 400;
+    color: #494a4b;
+}
+
+.overview-container .noun-container {
+
+    padding: 15px;
+}
+
+.overview-container .noun-container .noun {
+
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #21548D;
+    margin-bottom: 5px;
+}
+
+.overview-container .noun-container .noun-details {
+
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #494a4b;
+}
+
+.overview-container .adjective-container {
+
+    padding: 15px;
+}
+
+.overview-container .adjective-container .adjective {
+
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #21548D;
+    margin-bottom: 5px;
+}
+
+.overview-container .adjective-container .adjective-details {
+
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #494a4b;
+}
+
+.overview-container .verb-container {
+
+    padding: 15px;
+}
+
+.overview-container .verb-container .verb {
+
+    font-size: 2.2rem;
+    font-weight: 600;
+    color: #21548D;
+    margin-bottom: 5px;
+}
+
+.overview-container .verb-container .verb-details {
+
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: #494a4b;
+}
+
+.footer {
+
+    width: 100%;
+    height: 8vh;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: linear-gradient(91.92deg, #21548D 49.99%, #8AAAD0 100%);
+}
+
+.footer .footer-text {
+
+    font-size: 1.2rem;
+    font-weight: 300;
+    letter-spacing: 0.5px;
+    color: #FFF;
+}
